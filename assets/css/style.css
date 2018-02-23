@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@font-face {
+    font-family: 'A-Love-of-Thunder';
+    src:url('A-Love-of-Thunder.ttf.woff') format('woff'),
+        url('A-Love-of-Thunder.ttf.svg#A-Love-of-Thunder') format('svg'),
+        url('A-Love-of-Thunder.ttf.eot'),
+        url('A-Love-of-Thunder.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'iconsFooter';
+    src:url('fonts/iconsFooter.eot?fgsudd');
+    src:url('fonts/iconsFooter.eot?fgsudd#iefix') format('embedded-opentype'),
+        url('fonts/iconsFooter.ttf?fgsudd') format('truetype'),
+        url('fonts/iconsFooter.woff?fgsudd') format('woff'),
+        url('fonts/iconsFooter.svg?fgsudd#iconsFooter') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconsFooter' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  margin-left: 3em;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e900";
+  color: white;
+}
+.icon-home2:before {
+  content: "\e901";
+  color: white;
+}
+.icon-home3:before {
+  content: "\e902";
+  color: white;
+}
+.icon-cog:before {
+  content: "\e994";
+  color: white;
+}
+.icon-cogs:before {
+  content: "\e995";
+  color: white;
+}
+.icon-info-large-outline:before {
+  content: "\e903";
+  color: white;
+}
+
+.sinEspacios{
+  padding: 0;
+  margin: 0;
+}
+
+#title{
+  font-size: 4em;
+  text-align: center;
+  font-family: 'A-Love-of-Thunder';
+  color: paleturquoise;
+}
+
+#titleTwo{
+  font-size: 2em;
+  text-align: center;
+  font-family: 'A-Love-of-Thunder';
+  color: paleturquoise;
+  padding: 0;
+  margin: 0;
+}
+
+.welcomeImg{
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.btn-default{
+  color: paleturquoise;
+  margin-left: 2em;
+  margin-top: 3em;
+}
+
+footer{
+  align-self: flex-end;
+  background-color: paleturquoise;
+  text-align: -webkit-center;
+  align-items: center;
+  width: 100%;
+}
+
+#textFooter{
+  font-size: 1em;
+  font-family: 'A-Love-of-Thunder';
+  color: white;
+  margin: 0;
+  padding: 0;
+}
